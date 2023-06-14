@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div id="list-container">
+            <h1 id="lists-header">
+                My lists
+            </h1>
+            <ul id="list-of-lists">
+                <li class="list-item">
+                    <div class="checkbox"></div>
+                    <p class="list-title">Youtube</p>
+                </li>
+                <li class="list-item">
+                    <div class="checkbox"></div>
+                    <p class="list-title">Youtube</p>
+                </li>
+                <li class="list-item">
+                    <div class="checkbox"></div>
+                    <p class="list-title">Youtube</p>
+                </li>
+            </ul>
+            <form id="list-form">
+                <button type="submit" id="create-list">+</button>
+                <input type="text" name="" id="list-input">
+            </form>
+        </div>
+        <div id="task-container">
+            <header id="tasks-header">
+                <h1 id="large-title">Youtube</h1>
+                <span id="task-count"> 1 task remaining</span>
+            </header>
+            <ul id="list-of-tasks">
+                <li class="task-item">
+                    <div class="checkbox"></div>
+                    <p class="task-title">Solve problem</p>
+                </li>
+            </ul>
+            <div id="task-form">
+                <button type="submit" id="add-task">+</button>
+                <input type="text" name="" id="task-input">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
